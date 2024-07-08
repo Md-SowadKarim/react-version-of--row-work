@@ -1,0 +1,253 @@
+*{
+   
+
+}
+
+.hero{
+  
+    display: flex;
+    height: 1071px;
+   background:red;
+    position: relative;
+}
+.image{
+    width: 667px;
+height: 976px;
+top: 74px;
+left: 141px;
+gap: 0px;
+opacity: 0px;
+position: absolute;
+background-image: url("./assets/images/woman.png");
+z-index: 2;
+}
+.hero-left .logo{
+    display: flex;
+    top: 36px;
+    left: 60px;
+    padding: 0px;
+    opacity: 0px;
+    position: absolute;
+    gap: 20px;
+}
+.logo-img{
+    width: 130px;
+    height: 37.73px;
+}
+.logo-menu{
+   
+    padding: 5px;
+    padding-top: 10px;
+    border-radius: 53%;
+    text-align: center;
+    
+
+}
+.menu{
+    width: 15px;
+    height: 13px;
+   
+}
+.left-group{
+    /* border: white solid 2px; */
+    width: 30%;
+    height: 80%;
+    top: 200px;
+    left: 25px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.left-group-img{
+    width: 50px;
+    font-weight: bold;
+  
+}
+.hero-left{
+    /* border: solid green 2px; */
+    width:  30%;
+    background: linear-gradient(92.28deg, #080018 0%, #FF2929 45.93%, #FFB21C 97.73%);
+    z-index: 1;
+ 
+
+}
+.hero-right{
+    /* border: solid blue 2px; */
+    width: 70%;
+    opacity: 0.7px;
+    background-image: url("./images/wallpaperflare 1.png");
+    z-index: 1;
+}
+.hero-right-layer{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.7;
+   
+}
+.right-top{
+    margin-top: 15px;
+    right: 30px;
+    position: absolute;
+
+}
+.right-top img>{
+width: 247.5px;
+height: 60px;
+top: 25px;
+left: 10px;
+margin-left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+.right-down{
+    color: white;
+    position: absolute;
+    top: 150px;
+    margin-left: 275px;
+    
+}
+.right-down h1{
+    font-family: Big Shoulders Display;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 155px;
+    text-align: left;
+    color: white;
+}
+
+.all{
+    display: flex;
+    /* border: white 2px solid; */
+}
+.all-left{
+    width: 80%;
+}
+.all-right{
+    width: 20%;
+ align-items: center;
+   
+    display: flex;
+    justify-content: center;
+}
+.all-left-first{
+    margin-top: -80px;
+}
+
+.item-back{
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    background: yellow;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50px;
+    width: 95px;
+    background: #000;
+    opacity: 5px;
+    /*
+height: 611.35px;
+top: 210px;
+
+gap: 0px;
+border-radius: 60px 0px 0px 0px;
+opacity: 0.5px;
+display: flex; */
+
+
+   
+}
+.item-back .img{
+    width: 66.14px;
+    height: 66.14px;
+    opacity: 0px;
+    margin-right: 100px;
+
+}
+.img-button{
+    width: 196px;
+height: 65px;
+top: 483px;
+
+
+left: -30px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+margin-left: -130px;
+
+}
+.show{
+    background:#101010;
+    height: 600px;
+}
+.show1{
+    width: 1800px;
+    height: 500px;
+    top: 1036px;
+    left: 60px;
+  
+    gap: 0px;
+    border-radius: 50px;
+    opacity: 0px;
+    margin: 0px auto;
+    background: linear-gradient(95.04deg, #181818 7.27%, #151515 99.21%);
+
+    
+}
+.img-div{
+   
+    width: 90%;
+    margin: 0px auto;
+    height: 500px;
+    padding-bottom: 100px;
+   
+}
+
+.img1div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -30px;
+
+
+}
+.img2div{
+    text-align: center;
+    margin-top: -70px;
+    z-index: 4;
+}
+.img2div> img>{
+    width: 364px;
+height: 382px;
+
+gap: 0px;
+border: 4px 0px 0px 0px;
+opacity: 0px;
+}
+.div2p{
+    color: white;
+    margin-top: 10px;
+}
+
+.imgimg{
+    width: 260px;
+height: 34px;
+
+left: 247px;
+gap: 0px;
+border-radius: 3px 0px 0px 0px;
+opacity: 0px;
+
+}
+.newest{
+    background:#101010;
+    height: 600px;
+}
+
+.newdiv{
+    width: 90%;
+}
+.newdiv> img>{
+    width: 90%;
+}
